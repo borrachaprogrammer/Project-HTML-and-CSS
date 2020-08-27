@@ -1,0 +1,594 @@
+
+body {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.endereco {
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    
+}
+
+.telefone {
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+header {
+    position: relative;
+
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: -70px;
+  
+    left: 15px;
+    right: 15px;
+    
+    
+    padding-left: 90px;
+    padding-right: 50px;
+    
+    background-color: #14213D;
+    
+
+    border-radius: 15px;
+}
+
+.menu-opcoes ul {
+
+    font-size: 15px;
+    
+}
+
+.menu-opcoes a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 50px;
+    
+}
+
+.banner-destaque {
+    position: absolute; 
+	left: -100px; /* posiciona a 90px para a esquerda */ 
+	top: 140px; /* posiciona a 70px para baixo */
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.banner-destaque img {
+    width: 1342px;    /* largura da imagem */
+    height: 615px;   /*  altura da imagem  */
+    
+    right: 0px;
+    left: -200px;
+    position: absolute;
+}
+
+
+.texto {
+    position: absolute;
+      
+      color: #FFFFFF;;
+      text-align: center;
+      top: 330px;
+      width: 350px;
+      line-height: 38px;
+      height: 750px;
+      left: 180px;
+      text-align: left;
+      font-size: 40px;
+    font-family: Roboto;
+}
+
+
+
+.paragrafo {
+    font-size: 20px;
+    font-family: Roboto;
+    line-height: 18px;
+  
+}
+
+
+.adote {
+    font-size: 25px;
+    position: absolute;
+    top: 620px;
+    width: 125px;
+    color: #fff;
+    height: 27px;
+    left: 180px;
+    background: #FCA311;
+    border-radius: 60px;
+    text-align: center;
+
+}
+
+
+.quem-somos {
+    font-size: 25px;
+    position: absolute;
+    width: 1284px;
+    height: 280px;
+    left: 0px;
+    top: 708px;
+    color:  black;
+    background: #14213D;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 546px;
+    color: #FFFFFF;
+    
+}
+
+.text-sobre {
+    position: absolute;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    left: 200px;
+    top: 80px;
+    
+
+}
+
+.border {
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    left: 574px;
+    top: 50px;
+    background: #FCA311;
+    border-radius: 15px;
+}
+
+
+.apoie-text {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    left: 584px;
+    top: 170px;
+    text-align: center;
+
+    background: #FCA311;
+    border-radius: 60px;
+    width: 100px;
+    height: 32px;
+}
+
+.banner-adocao {
+    position: absolute;
+    
+    top: 450px;
+    left: 250px;
+    
+}
+
+.banner-adocao img {
+    width: 232px;
+    height: 294px;
+    border-radius: 30px;
+}
+
+.titulo-adocao {
+    position: absolute;
+    top: 450px;
+    left: 520px;
+}
+
+.texto-adocao {
+    position: absolute;
+    top: 530px;
+    left: 520px;  
+    font-size: 18px;
+    color: #000;
+
+}
+
+.principal-two {
+    position: absolute;
+    top: 300px;
+    left: 585px;
+    color: #14213D;;   
+}
+
+.border-two {
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    left: 600px;
+    top: 363px;
+    background: #FCA311;
+    border-radius: 15px;
+}
+
+.adocao-texto {
+    
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    left: 520px;
+    top: 710px;
+    text-align: center;
+
+    background: #FCA311;
+    border-radius: 60px;
+    width: 100px;
+    height: 32px;
+}
+
+.adocao-two {
+    position: absolute;
+    top: 800px;
+    left: 950px;   
+}
+
+
+
+.adocao-two img {
+    width: 232px;
+    height: 294px;
+    
+    border-radius: 30px;
+}
+
+
+.title-two {
+   position: absolute;
+   top: 10px;
+   left: -160px; 
+   width: 300px;
+   height: 300px;
+}
+
+
+.text-three {
+    position: absolute;
+    top: 80px;
+    left: -695px;
+    font-size: 18px;
+    width: 900px;
+    height: 900px;
+    
+}
+
+.adocao-textwo {
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+    left: 810px;
+    top: 1020px;
+    text-align: center;
+
+    background: #FCA311;
+    border-radius: 60px;
+    width: 100px;
+    height: 32px;
+}
+
+.animal {
+    font-size: 25px;
+    position: absolute;
+    top: 1200px;
+    left: 0px;
+    color: #fff;
+    background: #14213D;
+    width: 1283px;
+    height: 480px;
+    text-align: center;
+}
+
+.borde-animal {
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    left: 609px;
+    top: 1255px;
+    background: #FCA311;
+    border-radius: 15px;
+    
+       
+}
+
+.animal p {
+    top: 25px;
+}
+
+.gato-two {
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+}
+
+.gato-two img {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.text-cat {
+    color: #FFF;
+    top: 1480px;
+    left: 100px;
+    position: absolute;
+    
+}
+
+.title-cat {
+    position: absolute;
+    top: 1540px;
+    left: 100px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.cachorro {
+    position: absolute;
+    top: 1290px;
+    left: 500px;
+}
+
+.cachorro img {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.title-cachorro {
+    position: absolute;
+    top: 1475px;
+    left: 500px;
+    color: #FFFFFF;
+}
+
+.text-dog {
+    position: absolute;
+    top: 1540px;
+    left: 500px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.cat-four {
+    position: absolute;
+    top: 1290px;
+    left: 900px;
+}
+
+.cat-four img {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.title-cato {
+    position: absolute;
+    top: 1475px;
+    left: 900px;
+    color: #FFFFFF;
+}
+
+.text-cato {
+    position: absolute;
+    font-size: 14px;
+    top: 1540px;
+    left: 900px;
+    color: #FFFFFF;
+}
+
+.leia-cat {
+    position: absolute;
+    top: 1600px;
+    left: 100px;
+    color: #FCA311;
+    font-size: 18px;
+
+}
+
+.leia-dog {
+    position: absolute;
+    top: 1600px;
+    left: 500px;
+    color: #FCA311;
+    font-size: 18px;
+
+}
+
+.leia-cato {
+    position: absolute;
+    top: 1600px;
+    left: 900px;
+    color: #FCA311;
+    font-size: 18px;
+
+}
+
+.contato {
+    position: absolute;
+    top: 1680px;
+    left: 0px;
+    width: 1283px;
+    height: 400px;
+    background: #E5E5E5;
+}
+
+.contato-stronge {
+    position: absolute;
+    top: 1690;
+    left: 585px;
+    color: #000;
+}
+
+.contato-telefone {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    
+}
+
+.telefone-two {
+    left: 110px;
+    position: absolute;
+    top: 230px;
+
+}
+
+.contato-email {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    text-align: center;
+}
+
+.contato-endereco {
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+}
+
+.borde-contato {
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    left: 600px;
+    top: 1735px;
+    background: #FCA311;
+    border-radius: 15px;
+}
+
+.foto-email {
+    position: absolute;
+    top: 1850px;
+    left: 620px;
+}
+
+.foto-email img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.telefone-logo {
+    position: absolute;
+    top: 1850px;
+    left: 180px;
+}
+
+.telefone-logo img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.localizacao-logo {
+    position: absolute;
+    top: 1850px;
+    left: 1030px;
+}
+
+.localizacao-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.rodape-final {
+    background: #14213D;
+    position: absolute;
+    top: 2780px;
+    left: 0px;
+    width: 1283px;
+    height: 200px;
+}
+
+.logo-instagram {
+    
+    
+    position: absolute;
+    left: 940px;
+    top: 100px;
+    color: #FFFFFF;
+}
+
+.logo-face {
+    
+    position: absolute;
+    left: 1020px;
+    top: 100px;
+}
+
+.logo-wpp {
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+}
+
+.logo-instagram img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-face img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-wpp img {
+    width: 50px;
+    height: 50px;
+}
+
+.copy {
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.siga-nos {
+    position: absolute;
+    top: 40px;
+    left: 1010px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
